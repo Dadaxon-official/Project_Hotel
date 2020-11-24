@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.body-contact {
+  background-color: navajowhite;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding-bottom: 25px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+#navbar {
+  border-bottom: 2px solid white;
+  background-color: chocolate;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 25px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+  /*float: left;*/
+}
+
+#navbar ul li a {
+  display: inline-block;
+  padding: 30px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444444;
+  color: #f7c08a;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.headtext {
+  margin-top: -10px;
+}
+.text-primary {
+  color: gold;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #333333;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333333;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+.btn-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #333333;
+  color: white;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+.bg-primary {
+  background-color: #f7c08a;
+  color: #333333;
+}
+
+.clr {
+  clear: both;
+}
+
+#showcase {
+  border-bottom: 2px solid papayawhip;
+  background-image: url("img/hotel background.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+}
+
+#showcase h1 {
+  font-size: 70px;
+  background-color: #444444;
+  margin: 0 20%;
+  padding-top: 20px;
+  opacity: 0.7;
+}
+#showcase p {
+  color: floralwhite;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background-color: #444444;
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+#home-info {
+  border-bottom: 2px solid papayawhip;
+  height: 400px;
+}
+
+#home-info .info-img {
+  border-right: 1px solid powderblue;
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("img/hotel basseyn.jpg");
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info .info-content p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.box {
+  border-bottom: 2px solid ghostwhite;
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+.box a {
+  color: white;
+  text-decoration: none;
+}
+
+#features .box a {
+  color: black;
+  transition: 0.3s;
+}
+
+#features .box a:hover {
+  font-size: 22px;
+  color: goldenrod;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+#main-footer {
+  /*position: relative;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
+  text-align: center;
+  background-color: #444444;
+  color: white;
+  padding: 20px;
+}
+
+/*ABOUT US PAGE*/
+
+#about-info {
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 40%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#testims {
+  height: 600px;
+  padding-top: 100px;
+  background-image: url("img/hotel_room.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testims h2 {
+  color: ghostwhite;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+#testims .testim {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testims .testim img {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+#testims .testim p {
+  font-size: 20px;
+}
+/*Contact US page*/
+
+#contact-form {
+  padding: 20px 0;
+  background-image: url("img/hotel basseyn.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: top center;*/
+}
+
+#contact-form p {
+  color: sandybrown;
+  font-size: 40px;
+  background-color: #555555;
+  margin-right: 30%;
+  opacity: 0.8;
+}
+#contact-form h1 {
+  font-size: 35px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 30px;
+  color: sandybrown;
+  font-size: 25px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+#contact-form textarea {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 200px;
+}
+
+#contact-info {
+  display: inline-block;
+  width: 100%;
+}
+
+#contact-info .box a {
+  transition: 0.3s;
+}
+#contact-info .box a:hover {
+  font-size: 22px;
+  color: goldenrod;
+}
